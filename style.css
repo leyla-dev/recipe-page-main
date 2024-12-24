@@ -1,0 +1,158 @@
+@font-face {
+  font-family: YoungSerif-Regular;
+  src: url(assets/fonts/YoungSerif-Regular.ttf);
+}
+
+
+
+@font-face {
+  font-family:Outfit-VariableFont_wght;
+  src: url(assets/fonts/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Outfit-Black;
+  src: url(assets/fonts/Outfit-Black.ttf);
+}
+
+@font-face {
+  font-family: Outfit-Bold;
+  src: url(assets/fonts/Outfit-Bold.ttf);
+}
+
+@font-face {
+  font-family: Outfit-ExtraBold;
+  src: url(assets/fonts/Outfit-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Outfit-ExtraLight;
+  src: url(assets/fonts/Outfit-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: Outfit-Light;
+  src: url(assets/fonts/Outfit-Light.ttf);
+}
+
+@font-face {
+  font-family: Outfit-Medium;
+  src: url(assets/fonts/Outfit-Medium.ttf);
+}
+
+@font-face {
+  font-family: Outfit-Regular;
+  src: url(assets/fonts/Outfit-Regular.ttf);
+}
+
+@font-face {
+  font-family: Outfit-SemiBold;
+  src: url(assets/fonts/Outfit-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Outfit-SemiBold;
+  src: url(assets/fonts/Outfit-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Outfit-Thin;
+  src: url(assets/fonts/Outfit-Thin.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: outfit;
+}
+
+body {
+ background-color: hsl(30, 54%, 90%);
+}
+
+h1, h2 {
+  font-family: youngserif;
+  color: hsl(14, 45%, 36%);
+}
+
+p li {
+  line-height: 1.6;
+  color: hsl(30, 10%, 34%);
+ }
+
+ li {
+  margin-top:0.5rem;
+ }
+
+ .container {
+  max-width: 700px;
+  margin:0 auto;
+  background-color: #fff;
+  
+ }
+img {
+  max-width: 100%;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+.container div:not(first-child) {
+  padding: 24px
+}
+
+.banner h1 {
+  color: hsl(24, 5%, 18%);
+ margin-bottom: 16px;
+}
+
+.banner article {
+  background-color:hsl(330, 100%, 98%);
+  padding: 24px;
+  border-radius: 0.5rem;
+  margin-top: 24px;
+} 
+
+.banner article h3 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 0.5rem;
+}
+
+.instructions {
+  border-top: 1px solid hsl(30, 18%, 87%);
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition p {
+margin-top: 16px;
+}
+
+.nutrition ul li {
+display: flex;
+align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+ padding : 0.5rem 0;
+}
+
+.nutrition ul li:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 768px) {
+ .container {
+  margin: 80px auto 0;
+  padding: 32px;
+  border-radius: 16px;
+ } 
+
+ .banner h1 {
+  font-size: 48px;
+ }
+img {
+  border-radius: 16px;
+}
+
+}
